@@ -7,9 +7,9 @@ const BackToTop: React.FC = (): JSX.Element => {
   const [showScroll, setShowScroll] = useState(false);
 
   const checkScrollTop = () => {
-    if (!showScroll && window.pageYOffset > 1500) {
+    if (!showScroll && window.pageYOffset > 2000) {
       setShowScroll(true);
-    } else if (showScroll && window.pageYOffset <= 1500) {
+    } else if (showScroll && window.pageYOffset <= 2000) {
       setShowScroll(false);
     }
   };

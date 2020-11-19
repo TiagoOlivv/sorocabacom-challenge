@@ -10,8 +10,8 @@ import { CarouselStyle, CardStyle } from "./styles";
 
 const Carousel: React.FC = () => {
   const responsive = {
-    0: { items: 1 },
-    568: { items: 2 },
+    568: { items: 1 },
+    569: { items: 2 },
     1024: { items: 3 },
   };
 
@@ -51,7 +51,6 @@ const Carousel: React.FC = () => {
       autoPlayInterval={1000}
       animationDuration={1000}
       animationType="fadeout"
-      paddingLeft={25}
       responsive={responsive}
       infinite
       mouseTracking

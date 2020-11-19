@@ -11,11 +11,18 @@ export const FormStyle = styled.form`
   box-shadow: 0px 0px 6px #0000004d;
   background-color: #fff;
   opacity: 1;
+  @media (max-width: 600px) {
+    width: 100%;
+    height: 140%;
+  }
 
   h1 {
     padding-top: 80px;
     font: 46px Montserrat, sans-serif;
     color: #63c7a9;
+    @media (max-width: 800px) {
+      font: 32px Montserrat, sans-serif;
+    }
   }
 
   span {
@@ -27,11 +34,21 @@ export const FormStyle = styled.form`
     opacity: 1;
     padding: 120px;
     margin-bottom: -40px;
+    @media (max-width: 800px) {
+      margin-top: 20px;
+      padding: 30px;
+      font: 14px Open Sans, sans-serif;
+    }
   }
 
   strong {
     font: 21px Open Sans, sans-serif;
     color: #c53030;
+    @media (max-width: 800px) {
+      margin-top: 20px;
+      margin-bottom: -60px;
+      font: 14px Open Sans, sans-serif;
+    }
   }
 
   div {
@@ -45,6 +62,13 @@ export const FormStyle = styled.form`
       margin: 20px;
       padding: 15px;
     }
+    @media (max-width: 600px) {
+      flex: 1;
+      flex-direction: column;
+      position: relative;
+      width: 90%;
+      margin-bottom: -20%;
+    }
   }
 
   input {
@@ -54,6 +78,11 @@ export const FormStyle = styled.form`
     outline: none;
     padding: 15px;
     padding-bottom: 80px;
+    @media (max-width: 600px) {
+      width: 258px;
+
+      margin-top: 20px;
+    }
   }
 
   button {
@@ -71,6 +100,12 @@ export const FormStyle = styled.form`
 
     &:hover {
       background-color: #4f9f87;
+    }
+    @media (max-width: 600px) {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: -20px 92px -20px 92px;
     }
   }
 `;

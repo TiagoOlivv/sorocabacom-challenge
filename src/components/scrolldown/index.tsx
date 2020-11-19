@@ -3,7 +3,7 @@ import { FaArrowCircleDown } from "react-icons/fa";
 
 import { ScrollDownStyle } from "./styles";
 
-const ScrollDown: React.FC = (): JSX.Element => {
+const ScrollDown: React.FC = () => {
   const [showScroll, setShowScroll] = useState(false);
 
   const checkScrollDown = () => {
@@ -24,7 +24,7 @@ const ScrollDown: React.FC = (): JSX.Element => {
     <ScrollDownStyle>
       <FaArrowCircleDown
         onClick={scrollDown}
-        style={{ height: 30, display: showScroll ? "none" : "flex" }}
+        style={{ height: 40, display: showScroll ? "none" : "flex" }}
       />
     </ScrollDownStyle>
   );

@@ -10,6 +10,9 @@ export const Header = styled.header`
 
   img {
     margin-left: 30px;
+    @media (max-width: 800px) {
+      margin-left: -30px;
+    }
   }
 
   strong {
@@ -17,6 +20,9 @@ export const Header = styled.header`
     color: #fff;
     font-weight: bold;
     letter-spacing: 0.68px;
+    @media (max-width: 800px) {
+      font-size: 16px;
+    }
   }
 `;
 
@@ -38,12 +44,19 @@ export const Main = styled.main`
       margin: 18px 8px;
       font-weight: bold;
       color: #fff;
+      @media (max-width: 800px) {
+        font-size: 14px;
+      }
     }
 
     img {
       background-position: center;
       border-radius: 196px;
       opacity: 1;
+      @media (max-width: 800px) {
+        margin-left: 10px;
+        width: 95%;
+      }
     }
 
     p {
@@ -69,4 +82,7 @@ export const Footer = styled.footer`
   align-items: center;
   justify-content: center;
   height: 600px;
+  @media (max-width: 800px) {
+    width: 100%;
+  }
 `;

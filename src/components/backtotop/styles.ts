@@ -6,7 +6,7 @@ export const BackToTopStyle = styled.div`
   justify-content: flex-end;
 
   svg {
-    color: #fff;
+    color: #c0c0c0;
     position: fixed;
     width: 200px;
     bottom: 60px;
