@@ -49,7 +49,7 @@ const Carousel: React.FC = () => {
   return (
     <AliceCarousel
       autoPlay
-      autoPlayInterval={2000}
+      autoPlayInterval={1000}
       animationDuration={1000}
       animationType="fadeout"
       paddingLeft={25}
