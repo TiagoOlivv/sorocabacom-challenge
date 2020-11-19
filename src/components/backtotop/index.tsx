@@ -3,7 +3,7 @@ import { FaArrowCircleUp } from "react-icons/fa";
 
 import { BackToTopStyle } from "./styles";
 
-const BackToTop: React.FC = (): JSX.Element => {
+const BackToTop: React.FC = () => {
   const [showScroll, setShowScroll] = useState(false);
 
   const checkScrollTop = () => {
