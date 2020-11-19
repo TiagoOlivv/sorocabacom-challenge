@@ -1,5 +1,4 @@
-## TESTE SOROCABACOM
-### para desenvolvedores frontend
+## TESTE SOROCABACOM para desenvolvedores frontend
 
 ### Template:
 [Ver template](https://xd.adobe.com/spec/ae3a652f-3a94-4950-7008-6c9e9d27ab1f-d80b/)
