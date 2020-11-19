@@ -1,5 +1,5 @@
-<div style="text-align:center; font-size:40px;">TESTE SOROCABACOM </div>
-<div style="text-align:center; font-size:20px;"">para desenvolvedores frontend</div>
+## TESTE SOROCABACOM
+### para desenvolvedores frontend
 
 ### Template:
 [Ver template](https://xd.adobe.com/spec/ae3a652f-3a94-4950-7008-6c9e9d27ab1f-d80b/)
